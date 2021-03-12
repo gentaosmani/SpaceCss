@@ -1,0 +1,131 @@
+body{
+	background-color: #151644;
+	margin-top: -180px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.rocket{
+	background-color: white;
+	height: 250px;
+	width: 150px;
+	border-top-left-radius: 180px;
+	border-top-right-radius: 180px;
+	margin-top: 300px;
+	z-index: 2;
+}
+.window{
+	background-color: #120026;
+	height: 120px;
+	width: 65px;
+	border-radius: 180px;
+	margin-top: 350px;
+	margin-left: -107px;
+	z-index: 4;
+}
+.window-bubble{
+	background-color: #b8e5fa;
+	height: 22px;
+	width: 22px;
+	border-radius: 180px;
+	margin-top: 360px;
+	margin-left: -35px;
+	z-index: 4;
+}
+.window-bubble2{
+	background-color: #b8e5fa;
+	height: 8px;
+	width: 8px;
+	border-radius: 180px;
+	margin-top: 380px;
+	margin-left: -35px;
+	z-index: 4;
+}
+.rocket1{
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 180px;
+	margin-top: 327px;
+	margin-left: -38px;
+	z-index: 3;
+}
+.rocket-shadow{
+	background-color: #d0edfc;
+	height: 100px;
+	width: 100px;
+	border-radius: 180px;
+	margin-top: 320px;
+	margin-left: -97px;
+	z-index: 2;
+}
+.rocket-part1{
+	background-color: #7acccd;
+	height: 112px;
+	width: 58px;
+	border-radius: 200px;
+	margin-top: 460px;
+	z-index: 2;
+	margin-left: -160px;
+}
+.rocket-part2{
+	background-color: #7acccd;
+	height: 112px;
+	width: 58px;
+	border-radius: 200px;
+	margin-top: 460px;
+	z-index: 2;
+	margin-left: 90px;
+}
+.rocket-part3{
+	background-color: white;
+	height: 150px;
+	width: 80px;
+	margin-left: -230px;
+	margin-top: 443px;
+	z-index: 1;
+	transform: rotate(50deg);
+	border-radius: 150px;
+
+}
+.rocket-part4{
+	background-color: white;
+	height: 150px;
+	width: 80px;
+	margin-left: 90px;
+	margin-top: 440px;
+	z-index: 1;
+	transform: rotate(-52deg);
+	border-radius: 150px;
+}
+.smoke1{
+	background-color: #00b2c8;
+	height: 35px;
+	width: 8.5px;
+	border-radius: 180px;
+	margin-top: 552px;
+	margin-left: -170px;
+	z-index: 3;
+}
+.smoke{
+	background-color: #00b2c8;
+	height: 35px;
+	width: 8.5px;
+	border-radius: 180px;
+	margin-top: 552px;
+	margin-left: 3.5px;
+	z-index: 3;
+}
+
+.smoke-engine{
+	background-color: #120026;
+	height: 52px;
+	width: 108px;
+	margin-top: 550px;
+	margin-left: -100px;
+	z-index: 1;
+	border-radius: 10px;
+}
